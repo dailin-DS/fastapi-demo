@@ -15,10 +15,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DBHOST = "ds2022.cqee4iwdcaph.us-east-1.rds.amazonaws.com"
+DBHOST = "diy-spotify-new.c6zeoiy22gcj.us-east-1.rds.amazonaws.com"
 DBUSER = "admin"
 DBPASS = os.getenv('DBPASS')
-DB = "nem2p"
+DB = "esd4uq"
 
 @app.get("/")  # zone apex
 def zone_apex():
